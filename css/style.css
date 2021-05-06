@@ -30,7 +30,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(image/portada.jpg);
+    background: url(/image/portada.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -63,7 +63,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(image/nosotros.jpg);
+    background: url(/image/nosotros.jpg);
     background-size: cover;
     background-attachment: fixed;
     padding-right: 50px;
@@ -278,7 +278,7 @@ section {
 ----------------------------- */
 
 .donacion {
-    background: url(image/donacion.jpg);
+    background: url(/image/donacion.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -286,6 +286,7 @@ section {
 .white .titulotext,
 .white p {
     color: #fff;
+    padding-top: 0.1em;
 }
 
 .donacion .content {
@@ -340,6 +341,18 @@ section {
     font-size: 1em;
     color: #ff0158;
     font-weight: 599;
+}
+
+
+/* --------------------------
+            CITA BIBLICA
+----------------------------- */
+
+.expert .title p {
+    text-align: center;
+    color: #667;
+    font-style: italic;
+    padding-top: 1em;
 }
 
 
