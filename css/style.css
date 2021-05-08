@@ -294,13 +294,12 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-top: 40px;
 }
 
 .donacion .content .box {
     width: 540px;
     margin: 50px;
-    padding: 40px;
+    padding: 60px;
     background: #fff;
     display: flex;
     justify-content: center;
@@ -431,6 +430,7 @@ footer {
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
+    color: white;
 }
 
 .footer-bottom span {
@@ -457,10 +457,10 @@ footer {
     }
     header .navigation.active {
         width: 100%;
+        left: 0;
         height: calc(100% - 65px);
         position: fixed;
         top: 65px;
-        left: 0;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -480,21 +480,21 @@ footer {
         position: relative;
         width: 40px;
         height: 40px;
-        background: url(/icons/bars-solid.svg);
-        background-size: 25px;
+        background: url(../icons/bars-solid.svg);
+        background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
         cursor: pointer;
     }
     .menuToggle.active {
-        background: url(/icons/times-solid.svg);
-        background-size: 20px;
+        background: url(../icons/times-solid.svg);
+        background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
     }
-    /*  header.sticky .menuToggle {
+    header.sticky .menuToggle {
         filter: invert(1);
-    } */
+    }
     section {
         padding: 20px;
     }
@@ -512,5 +512,14 @@ footer {
     .row .col50 .imgBx {
         height: 300px;
         margin-top: 20px;
+    }
+    .nosotros .banner-nosotros {
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .donacion .titulotext {
+        font-size: 35px;
     }
 }

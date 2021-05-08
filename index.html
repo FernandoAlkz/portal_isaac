@@ -13,8 +13,10 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@100;200;300;400;500;600&display=swap');
     </style>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>GRUPO ISAAC</title>
+    <title>FUNDACION ISAAC</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -23,11 +25,11 @@
         <a href="" class="logo">ISAAC</a>
         <div class="menuToggle" onclick="toggleMenu();"></div>
         <ul class="navigation">
-            <li><a href="#banner">INICIO</a></li>
-            <li><a href="#nosotros">NOSOROS</a></li>
-            <li><a href="">GALERIA</a></li>
-            <li><a href="#contactos">CONTACTOS</a></li>
-            <li><a href="#donacion">DONACIONES</a> </li>
+            <li><a href="#banner" onclick="toggleMenu();">INICIO</a></li>
+            <li><a href="#nosotros" onclick="toggleMenu();">NOSOROS</a></li>
+            <li><a href="" onclick="toggleMenu();">GALERIA</a></li>
+            <li><a href="#contactos" onclick="toggleMenu();">CONTACTOS</a></li>
+            <li><a href="#donacion" onclick="toggleMenu();">DONACIONES</a> </li>
         </ul>
     </header>
 
@@ -152,7 +154,10 @@
                     <p>Gracias a estas donaciones, podemos seguir dando ayuda humanitaria a nuestros hermanos migrantes.</p>
                     <form action="https://www.paypal.com/donate" method="post" target="_blank">
                         <input type="hidden" name="hosted_button_id" value="Q6WDKV9U78VKU" />
-                        <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - Gracias por tus Donaciones" alt="Donate with PayPal button" />
+                        <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - Gracias por tus Donaciones" alt="" style="
+                        width: 120px;
+                        padding-top: 30px;
+                    ">
                         <img alt="" border="0" src="https://www.paypal.com/es_MX/i/scr/pixel.gif" width="3" height="3" />
                     </form>
                 </div>
@@ -183,7 +188,7 @@
     <!-- FOOTER -->
     <footer>
         <div class="footer-content ">
-            <h3>FUNDACION I.S.A.A.C</h3>
+            <h5>FUNDACION I.S.A.A.C</h5>
             <ul class="socials ">
                 <li><a href="# "><i class="fa fa-facebook "></i></a></li>
                 <li><a href="# "><i class="fa fa-twitter "></i></a></li>
@@ -192,7 +197,7 @@
             </ul>
         </div>
         <div class="footer-bottom ">
-            <p>copyright &copy;2020 <span></span></p>
+            <p>copyright &copy;2020<span></span></p>
         </div>
     </footer>
 
