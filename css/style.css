@@ -34,7 +34,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../image/portada.jpg);
+    background: url(../img/portada.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -67,7 +67,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../image/nosotros.jpg);
+    background: url(../img/nosotros.jpg);
     background-size: cover;
     background-attachment: fixed;
     padding-right: 50px;
@@ -320,7 +320,7 @@ section {
 ----------------------------- */
 
 .donacion {
-    background: url(../image/donacion.jpg);
+    background: url(../img/donacion.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
