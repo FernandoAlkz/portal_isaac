@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es_MX">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a4454b20f7.js" crossorigin="anonymous"></script>
+
+    <!-- TIPOGRAFIA -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@100;200;300;400;500;600&display=swap');
+    </style>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>FUNDACION ISAAC</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <a class="navbar-brand" href="#">
+            <img src="img/icon/logo.png" width="70" height="50" alt="" loading="lazy">
+        </a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="https://fernandoalkz.github.io/portal_isaac/" onclick="toggleMenu();">INICIO</a></li>
+            <li><a href="https://fernandoalkz.github.io/portal_isaac/#nosotros" onclick="toggleMenu();">NOSOTROS</a></li>
+            <li><a href="https://fernandoalkz.github.io/portal_isaac/galery.html" onclick="toggleMenu();">GALERIA</a></li>
+            <li><a href="https://fernandoalkz.github.io/portal_isaac/" onclick="toggleMenu();">CONTACTOS</a></li>
+            <li><a href="https://fernandoalkz.github.io/portal_isaac/donacion.html" onclick="toggleMenu();">DONACIONES</a> </li>
+        </ul>
+    </header>
+
+    <!-- DONACION -->
+    <section class="donacion" id="donacion">
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/donacion.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Gracias a estas donaciones, podemos seguir dando ayuda humanitaria a nuestros hermanos migrantes.</p>
+                    <form action="https://www.paypal.com/donate" method="post" target="_blank">
+                        <input type="hidden" name="hosted_button_id" value="Q6WDKV9U78VKU" />
+                        <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - Gracias" alt="" style="width: 120px;padding-top: 30px;">
+                        <img alt="" border="0" src="https://www.paypal.com/es_MX/i/scr/pixel.gif" width="3" height="3" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content ">
+            <h5>FUNDACION I.S.A.A.C</h5>
+            <ul class="socials ">
+                <li><a href="# "><i class="fa fa-facebook "></i></a></li>
+                <li><a href="# "><i class="fa fa-twitter "></i></a></li>
+                <li><a href="# "><i class="fa fa-google-plus "></i></a></li>
+                <li><a href="# "><i class="fa fa-youtube "></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom ">
+            <p>copyright &copy;2020<span></span></p>
+        </div>
+    </footer>
+
+    <!-- FOOTER -->
+
+
+    <script type="text/javascript ">
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+        function toggleMenu() {
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+
+
+</body>
+
+</html>
