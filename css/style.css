@@ -21,6 +21,19 @@ p {
     color: rgb(8, 8, 8);
 }
 
+.service_main {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+
+.touch_section {
+    width: 100%;
+    padding-top: 57px;
+    margin-bottom: 47px;
+    display: inline-block !important;
+}
+
 
 /* --------------------------
          IMAGEN INICIO
