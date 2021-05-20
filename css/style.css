@@ -47,7 +47,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*   background: url(../img/portada.jpg); */
+    background: url(../img/portada.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -80,7 +80,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../img/nosotros.jpg);
+    /* background: url(../img/nosotros.jpg); */
     background-size: cover;
     background-attachment: fixed;
     padding-right: 50px;
