@@ -80,7 +80,6 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: url(../img/nosotros.jpg); */
     background-size: cover;
     background-attachment: fixed;
     padding-right: 50px;
@@ -98,11 +97,10 @@ p {
 }
 
 
-}
-
 /* --------------------------
             BOTON
 ----------------------------- */
+
 .btn {
     font-size: 1em;
     color: #fff;
@@ -115,13 +113,16 @@ p {
     letter-spacing: 2px;
     transform: 0.5s;
 }
+
 .btn:hover {
     letter-spacing: 1px;
 }
 
+
 /* --------------------------
           NAVBAR
 ----------------------------- */
+
 header {
     position: fixed;
     top: 0;
@@ -134,11 +135,13 @@ header {
     align-items: center;
     transition: 0.5s;
 }
+
 header.sticky {
     background: #fff;
     padding: 10px 100px;
     box-shadow: 0 5px 20px rgba(0, 0, o, .05);
 }
+
 
 /* header .logo {
     color: #fff;
@@ -148,6 +151,7 @@ header.sticky {
     
 }
  */
+
 .lets_touch_main {
     width: 100%;
     float: left;
@@ -156,38 +160,48 @@ header.sticky {
     padding-bottom: 40PX;
 }
 
+
 /* --------------------------
             LOGO
             NAVEGACION
 ----------------------------- */
+
 header .sticky .logo {
     color: #111;
 }
+
 header .logo span {
     color: #c4000a;
 }
+
 header .navigation {
     position: relative;
     display: flex;
 }
+
 header .navigation li {
     list-style: none;
     margin-left: 30px;
 }
+
 header .navigation li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: 600;
 }
+
 header.sticky .navigation li a {
     color: #111;
 }
+
 header.sticky .logo {
     color: #111;
 }
+
 header .navigation li a:hover {
     color: #ff0158;
 }
+
 
 /* GALERIA 
 
@@ -215,23 +229,28 @@ header .navigation-galery li a:hover {
     color: #ff0158;
 }
 */
+
 section {
     padding: 50px;
 }
+
 
 /* --------------------------
             NOSOTROS
             texto
 ----------------------------- */
+
 .row {
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
+
 .row .col50 {
     position: relative;
     width: 47%;
 }
+
 .titulotext {
     color: #111;
     font-size: 3em;
@@ -240,16 +259,18 @@ section {
     text-align: center;
 }
 
+
 /* --------------------------
             imagen
 ----------------------------- */
+
 .row .col50 .imgBx {
     position: relative;
     width: 100%;
     /* min-height: 300; */
-    
     height: 100%;
 }
+
 .row .col50 .imgBx img {
     position: center;
     top: 0;
@@ -259,9 +280,11 @@ section {
     object-fit: cover;
 }
 
+
 /* --------------------------
             GALERIA
 ----------------------------- */
+
 .title {
     width: 100%;
     display: flex;
@@ -269,6 +292,7 @@ section {
     align-items: center;
     flex-direction: column;
 }
+
 .galeria .content {
     display: flex;
     justify-content: center;
@@ -276,17 +300,20 @@ section {
     flex-wrap: wrap;
     margin-top: 40px;
 }
+
 .galeria .content .box {
     width: 340px;
     margin: 20px;
     border: 5px solid #fff;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
 }
+
 .galeria .content .box .imgBx {
     position: relative;
     width: 100%;
     height: 300px;
 }
+
 .galeria .content .box .imgBx img {
     position: absolute;
     top: 0;
@@ -296,7 +323,9 @@ section {
     object-fit: cover;
 }
 
+
 /* GALERY BOOTSTRAP */
+
 .carousel-item {
     width: 100%;
     height: 500px;
@@ -306,25 +335,30 @@ section {
     background-size: cover;
 }
 
+
 /* --------------------------
             DONACIONES
 ----------------------------- */
+
 .donacion {
     background: url(../img/donacion.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
+
 .white .titulotext,
 .white p {
     color: #fff;
     padding-top: 0.1em;
 }
+
 .donacion .content {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
 }
+
 .donacion .content .box {
     width: 540px;
     margin: 50px;
@@ -335,6 +369,7 @@ section {
     align-items: center;
     flex-direction: column;
 }
+
 .donacion .content .box .imgBx {
     position: relative;
     width: 150px;
@@ -343,6 +378,7 @@ section {
     border-radius: 8%;
     overflow: hidden;
 }
+
 .donacion .content .box .imgBx img {
     position: absolute;
     top: 0;
@@ -351,13 +387,16 @@ section {
     height: 100%;
     object-fit: cover;
 }
+
 .donacion .content .box .text {
     text-align: center;
 }
+
 .donacion .content .box .text p {
     color: #667;
     font-style: italic;
 }
+
 .donacion .content .box .text h3 {
     margin-top: 20px;
     color: #111;
@@ -366,9 +405,11 @@ section {
     font-weight: 599;
 }
 
+
 /* --------------------------
             CITA BIBLICA
 ----------------------------- */
+
 .expert .title p {
     text-align: center;
     color: #667;
@@ -376,9 +417,11 @@ section {
     padding-top: 1em;
 }
 
+
 /* --------------------------
             FOOTER
 ----------------------------- */
+
 footer {
     bottom: 0;
     left: 0;
@@ -390,6 +433,7 @@ footer {
     padding-top: 40px;
     color: #fff;
 }
+
 .footer-content {
     display: flex;
     align-items: center;
@@ -397,18 +441,21 @@ footer {
     flex-direction: column;
     text-align: center;
 }
+
 .footer-content h3 {
     font-size: 1.8rem;
     font-weight: 400;
     text-transform: capitalize;
     line-height: 3rem;
 }
+
 .footer-content p {
     max-width: 500px;
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
 }
+
 .socials {
     list-style: none;
     display: flex;
@@ -416,53 +463,61 @@ footer {
     justify-content: center;
     margin: 1rem 0 3rem 0;
 }
+
 .socials li {
     margin: 0 10px;
 }
+
 .socials a {
     text-decoration: none;
     color: #fff;
 }
+
 .socials a i {
     font-size: 1.1rem;
     transition: color .4s ease;
 }
+
 .socials a:hover i {
     color: aqua;
 }
+
 .footer-bottom {
     background: #000;
     width: 100%;
     padding: 20px 0;
     text-align: center;
 }
+
 .footer-bottom p {
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
     color: white;
 }
+
 .footer-bottom span {
     text-transform: uppercase;
     opacity: .4;
     font-weight: 200;
 }
 
+
 /* --------------------------
             RESPONSIVE
 ----------------------------- */
 
+
 /* RESPONSIVE MENU */
+
 @media(max-width: 991px) {
     header,
     header.sticky {
         padding: 10px 20px;
     }
-    
     header .navigation {
         display: none;
     }
-    
     header .navigation.active {
         width: 100%;
         left: 0;
@@ -475,12 +530,10 @@ footer {
         flex-direction: column;
         background: #fff;
     }
-    
     header .navigation li {
         list-style: none;
         margin-left: 0;
     }
-    
     header .navigation li a {
         color: #111;
         font-size: 1.6em;
@@ -510,8 +563,8 @@ footer {
         font-size: 1.6em;
     }
     */
+    /* AREA VIDEO */
     /* BOTONES MENU */
-    
     .menuToggle {
         position: relative;
         width: 40px;
@@ -522,56 +575,47 @@ footer {
         background-position: center;
         cursor: pointer;
     }
-    
     .menuToggle.active {
         background: url(../icons/times-solid.svg);
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
     }
-    
     header.sticky .menuToggle {
         filter: invert(1);
     }
-    
     section {
         padding: 20px;
     }
-    
     .banner .content h2 {
         font-size: 3em;
         color: #fff;
     }
-    
     .row {
         flex-direction: column;
     }
-    
     .row .col50 {
         position: relative;
         width: 100%;
     }
-    
     .row .col50 .imgBx {
         height: 300px;
         margin-top: 20px;
     }
-    
     .carousel-item {
         height: 200px;
     }
-    
     .nosotros .banner-nosotros {
         padding-right: 20px;
         padding-left: 20px;
         padding-top: 0px;
         padding-bottom: 0px;
     }
-    
     .donacion .titulotext {
         font-size: 35px;
     }
 }
+
 .donacion .titulotext {
     font-size: 35px;
 }
