@@ -83,8 +83,8 @@
     width: 80px;
     border-radius: 50px;
     transition: -webkit-transform 300ms ease;
-    background: #fff;
-    color: #ff3737e8;
+    background: rgba(255, 255, 255, 0);
+    color: #ff373700;
     line-height: 80px;
     font-size: 30px;
     margin-left: 5px
@@ -441,6 +441,10 @@
     border-radius: 30px;
     opacity: 0;
     visibility: hidden
+}
+
+.services {
+    background-color: rgba(224, 224, 224, 0.678);
 }
 
 .services .service-block {
